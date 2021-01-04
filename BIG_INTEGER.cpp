@@ -533,10 +533,13 @@ int main()
 {
 	int a;
 	bigint b1,b2;
+	cout << "Enter two Number: \n";
 	cin >> b1 >> b2;
 	bigint b3=b1+b2;
 	bigint b4=b1*b2;
+	cout << "Sum is: ";
 	cout << b3 << endl;
+	cout << "Product is: ";
 	cout << b4 << endl;
 	return 0;
 }
